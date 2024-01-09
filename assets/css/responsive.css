@@ -1,0 +1,77 @@
+/* Medium Layout: 1280px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 968px;
+    }
+}
+
+/* Tablet Layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 744px;
+    }
+}
+
+/* Mobile Layout: 320px */
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 296px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .menu ul li {
+        margin-bottom: 15px;
+    }
+
+    .banner-area img {
+        height: 220px;
+    }
+
+    .about__item {
+        flex-basis: 100%;
+        padding: 20px;
+    }
+    .services__item {
+        padding: 20px;
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .gallary__item {
+        flex-basis: 100%;
+    }
+    .contact__form {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+      }
+}
+
+/* Wide Mobile Layout: 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 446px;
+    }
+    .about__item {
+        flex-basis: 47%;
+    }
+
+    .services__item {
+        flex-basis: 47%;
+    }
+
+    .gallary__item {
+        flex-basis: 47%;
+    }
+    .gallary__item img {
+        height: 160px;
+      }
+}
